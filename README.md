@@ -5,7 +5,7 @@ How to install the Wibs AnalysiS Toolkit
 
 1. Install Igor Pro http://www.wavemetrics.com/products/igorpro/igorpro.htm
 
-2. Run install.bat by double clikcing. This will attempt to copy the cluster analysis xop to your Igor Pro direcory. Alternatively you can manually copy the xop to your Igor Pro Extensions folder. Note that Windows 7 users may need to right click the install file and "Run as Administrator".
+2. Copy the cluster analysis xop to your Igor Pro direcory.
 
 3. Double click the Wasp.pxt file to start a new Wasp session.
 

@@ -152,7 +152,7 @@ Window waspPanel() : Panel
 	SetVariable ToDoEndPt,pos={424,99},size={100,16},title="End pt"
 	SetVariable ToDoEndPt,value= root:Panel:toDoEndPt
 	ListBox sizeBinList,pos={424,120},size={97,121},listWave=root:Panel:sizeBinsList
-	ListBox sizeBinList,selWave=root:Panel:sizeBinsListSW,mode= 9
+	ListBox sizeBinList,selWave=root:Panel:sizeBinsListSW,mode= 4
 	Button newToDo,pos={423,271},size={47,19},proc=newToDoButtonProc
 	PopupMenu toDoList,pos={425,295},size={97,21},bodyWidth=64,title="To Do"
 	PopupMenu toDoList,mode=1,popvalue="All",value= #"root:panel:toDoList"
